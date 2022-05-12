@@ -57,7 +57,7 @@
 }
 
 #tumblingbild,
-#friståendebild{
+#fristaendebild{
   width: 95%;
   border-radius: 25%;
   align-self: center;
@@ -68,7 +68,7 @@
 
 .trampett,
 .tumbling,
-.fristående{
+.fristaende{
   text-align: center;
   font-size: 150%;
   color: #006AA7;
@@ -76,7 +76,7 @@
 
 .trampettext,
 .tumblingtext,
-.friståendetext{
+.fristaendetext{
   text-align: center;
   font-size: 150%;
   color: #006AA7;
@@ -101,6 +101,10 @@ width: 95%;
   border-radius: 12%;
   color: white;
   padding-top:3%;
+}
+
+.fot1{
+
 }
 
 
@@ -218,10 +222,19 @@ ul{
 footer{
   background-color: grey;
   width: 100%;
+
 }
 
 .lank_huvudsida{
   margin-right: 25%
+}
+
+@media only screen and (max-width: 640px){
+  .fristaendetext,
+  .tumblingtext,
+  .trampettext{
+    font-size: 140%;
+  }
 }
 
 @media only screen and (max-width: 865px){
@@ -251,7 +264,7 @@ footer{
     width: 100%;
     margin: 0;
   }
-  .fristående, .tumbling{
+  .fristaende, .tumbling{
     margin-top: auto;
     margin-bottom: auto;
 
