@@ -39,7 +39,7 @@
   color: white;
   font-size: 6vw;
   text-align: center;
-  
+
 }
 
 #redskap{
@@ -103,10 +103,62 @@ width: 95%;
   padding-top:3%;
 }
 
-.fot1{
-
+@media only screen and (max-width: 865px){
+  #gymnastik_text{
+    font-size:200%;
+  }
 }
 
+@media only screen and (max-width: 640px){      /* */
+  .fristaendetext,
+  .tumblingtext,
+  .trampettext{
+    font-size: 140%;
+  }
+}
+
+@media only screen and (max-width: 625px){
+  #gymnastik_text{
+    font-size:150%;
+  }
+}
+
+@media only screen and (max-width: 620px){
+  #trampettbild{
+    width: 100%;
+    margin:0;
+  }
+
+  .trampett{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #tumblingbild{
+    width: 100%;
+    margin: 0;
+  }
+  .fristaende, .tumbling{
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+}
+
+@media only screen and (max-width: 470px){
+
+  .tumbling{
+    margin-top: 15%;
+  }
+
+  .tumblingtext{
+    margin-top: 7%;
+  }
+
+  .fristaende{
+    margin-top: 2%;
+  }
+}
 
 /* Dropdown meny */
 
@@ -233,45 +285,14 @@ footer{
   margin-right: 25%
 }
 
-@media only screen and (max-width: 640px){
-  .fristaendetext,
-  .tumblingtext,
-  .trampettext{
-    font-size: 140%;
-  }
-}
 
-@media only screen and (max-width: 865px){
-  #gymnastik_text{
-    font-size:200%;
+@media only screen and (max-width: 700px){
+  .tavling_bild{
+    width: 100vw;
   }
-}
 
-@media only screen and (max-width: 625px){
-  #gymnastik_text{
-    font-size:150%;
-  }
-}
-
-@media only screen and (max-width: 620px){
-  #trampettbild{
+  .bakgrundsfarg{
     width: 100%;
-    margin:0;
-  }
-
-  .trampett{
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-  #tumblingbild{
-    width: 100%;
-    margin: 0;
-  }
-  .fristaende, .tumbling{
-    margin-top: auto;
-    margin-bottom: auto;
-
   }
 }
 
@@ -279,31 +300,15 @@ footer{
   ul{
     margin-top: 25%;
   }
+
+  .rikstext,
+  .smtext{
+    font-size: 100%;
+  }
 }
 
 @media only screen and (max-width: 470px){
   ul{
     margin-top: 50%;
-  }
-
-  .tumbling{
-    margin-top: 15%;
-  }
-
-  .tumblingtext{
-    margin-top: 7%;
-  }
-
-  .fristaende{
-    margin-top: 2%;
-  }
-
-  .fristaendetext
-}
-
-@media only screen and (max-width: 540px){
-  .rikstext,
-  .smtext{
-    font-size: 100%;
   }
 }

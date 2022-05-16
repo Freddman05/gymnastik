@@ -333,5 +333,45 @@ ul{
     grid-column: 2/8;
     grid-row: 10/11;
   }
+}
 
+@media only screen and (max-width: 700px){
+  .tavling_bild{
+    grid-column: 1/9;
+  }
+
+  .tavlingsrubrik{
+    grid-column: 3/7;
+    grid-row: 1/2;
+  }
+
+  .rikstavlingar{
+    grid-column: 3/7;
+    grid-row: 2/3;
+  }
+
+  .rikstext{
+    grid-column: 2/8;
+    grid-row: 3/4;
+  }
+
+  .smstegen{
+    grid-column: 3/7;
+    grid-row: 5/6;
+  }
+
+  .smtext{
+    grid-column: 2/8;
+    grid-row: 6/7;
+  }
+
+  ul{
+    grid-column: 3/7;
+    grid-row: 7/9;
+  }
+
+  .bakgrundsfarg{
+    grid-column: 2/8;
+    grid-row: 1/10;
+  }
 }
