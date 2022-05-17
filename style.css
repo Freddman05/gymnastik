@@ -12,6 +12,7 @@
 }
 
 /* För HEADERN och element inom headern*/
+/* För huvudsidan */
 #huvud{
   width: 100vw;
   height: 80px;
@@ -281,8 +282,12 @@ footer{
 
 }
 
-.lank_huvudsida{
+.lanktilltopp{
   margin-right: 25%
+}
+
+.lank_forbund{
+  margin-right: 25%;
 }
 
 
