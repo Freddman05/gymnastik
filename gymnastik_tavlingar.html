@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv">
+
+<!--Bakomliggande kod-->
   <head>
     <meta charset="utf-8">
     <title>Gymnastik</title>
@@ -7,10 +9,13 @@
     <Link rel="stylesheet" type="text/css" href="grid.css">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
   </head>
-  <body>  
+
+<!--Synliga koden-->
+  <body>
     <header id="huvud">
       <h1 id="rubrik"> Gymnastik </h1>
 
+      <!--Html kod för dropdownmenyn, t.ex vilka länkar som ska vad med och att det är en knapp-->
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn"> Meny </button>
         <div id="myDropdown" class="dropdown-content">
@@ -20,11 +25,13 @@
       </div>
     </header>
 
+<!--Början av kod för det som ska ligga inom gridcontainern-->
     <div class="container">
       <img title="Upphovsman: Svensk Gymnastik på gymnastik.se" alt="bild på landslag" class="tavling_bild" src="gymnastik_bild.webp">
 
       <div class="bakgrundsfarg"></div>
 
+    <!--Koden för texten här -->
       <h2 class="tavlingsrubrik">Tävlingar</h2>
       <h3 class="rikstavlingar">Rikstävlingar</h3>
       <p class="rikstext"> Tävlingar som hålls vartannat år där det inte finns någon åldersgräns på varje tävling. Delas upp i olika nivåer från "Riks 9 tävlingar" till "Riks 1" där bättre lag tävlar i lägre siffror. Riks 1 är därmed tävlingen med svårast motstånd</p>
@@ -36,6 +43,7 @@
         <li>SM (Senior-SM)</li>
       </ul>
 
+<!-- Footer för om javascript inte tillåts / fungerar-->
       <footer class="fot2">
         <a href="index.html" target="_blank" class="lank_huvudsida">Tillbaka till Huvudsida</a>
         <a href="https://www.gymnastik.se/" target="_blank" class="lank_forbund">Gymnastikförbundet</a>

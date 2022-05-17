@@ -113,6 +113,7 @@ width: 95%;
   font-size: 125%;
 }
 
+/*mobilanpassning för indexsidan (mediaquery)*/
 @media only screen and (max-width: 865px){
   #gymnastik_text{
     font-size:200%;
@@ -170,7 +171,8 @@ width: 95%;
   }
 }
 
-/* Dropdown meny */
+
+/* Dropdown meny css */
 
 /* Dropdown Button */
 .dropbtn {
@@ -219,6 +221,7 @@ width: 95%;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
 
 
 
@@ -297,6 +300,8 @@ footer{
   font-size: 125%;
 }
 
+
+/* mobilanpassning för tävlingssidan (mediaquery)*/
 @media only screen and (max-width: 700px){
   .tavling_bild{
     width: 100vw;

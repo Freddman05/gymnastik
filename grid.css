@@ -1,4 +1,7 @@
 
+/* Grid för allt/
+
+
 /* Grid för huvudsidan */
 .container{
   display: grid;
@@ -76,10 +79,6 @@
   grid-row: 37/44;
 }
 
-.background{
-  grid-column: 5/-1;
-  grid-row: 37/44;
-}
 
 #gymnastik_text{
   grid-column: 2/-2;
@@ -96,6 +95,7 @@
   grid-row: 36/37;
 }
 
+/* Mobilanpassning av grid för huvudsidan*/
 @media only screen and (max-width: 835px){
 
   #redskap{
@@ -338,7 +338,7 @@ ul{
   grid-column: 1/-1;
 }
 
-
+/* Mobilanpassning av grid för tävlingssidan*/ 
 @media only screen and (max-width: 700px){
   .tavling_bild{
     grid-column: 1/9;

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="sv">
+
+<!-- Bakomliggande kod -->
   <head>
     <meta charset="utf-8">
     <title>Gymnastik</title>
@@ -9,10 +11,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1.0">
   </head>
 
+<!--Synlig kod börjar här-->
   <body>
     <header id="huvud">
       <h1 id="rubrik"> Gymnastik </h1>
 
+      <!--Html kod för dropdownmenyn, t.ex vilka länkar som ska vad med och att det är en knapp-->
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn"> Meny </button>
         <div id="myDropdown" class="dropdown-content">
@@ -24,38 +28,47 @@
       </div>
     </header>
 
-
+    <!--Här börjar gridcontainern för hela sidan -->
     <div class="container">
+
+    <!--Kod för "inspirations"bild och text -->
       <img title="Fredrik Lindgren" alt="inspirationsbild" id="inspobild" src="IMG_4788.webp">
       <h2 class="inspotext">"Inspirerande text"</h2>
       <div class="blank_yta"></div>
 
+      <!-- Koden för albert einstein quote-->
       <p id="gymnastik_text"> "Gymnastik är en mycket bra och rolig sport. Kroppen lär sig grundläggande motoriska kunskaper som andra sporter inte ger och är därför den bästa sporten i världen. ALLA BORDE GÅ PÅ DEN!" </p>
       <p class="albert_stein"> - Albert Einstein </p>
 
+      <!--Början för delen av redskap, inkl titel -->
       <h2 id="redskap">Redskap</h2>
-      <img title="Jan Magne Cederstrøm" alt="bild på trampett" id="trampettbild" src="trampett.webp">
 
+        <!--Trampett delen av redskapen-->
+      <img title="Jan Magne Cederstrøm" alt="bild på trampett" id="trampettbild" src="trampett.webp">
       <h3 class="trampett">Trampett</h3>
       <p class="trampettext">Trampett är ett redskap där 6 personer från varje lag springer till denna lilla studsmatta för att försöka få så mycket kraft som möjligt för att göra coola volter</p>
 
+        <!--Tumbling delen av redskapen -->
       <h3 class="tumbling">Tumbling</h3>
       <p class="tumblingtext">Tumbling är en lång stumm studsig matta som man springer och gör serier av olika coola volter efter varandra på. T.ex flickisar, dubbelvolter och rondater</p>
       <img title="ttela.se" alt="bild på tumblinggolv" id="tumblingbild" src="tumbling.jpeg">
 
-
+        <!--Friståendedelen av koden av redskap -->
       <h3 class="fristaende">Fristående</h3>
       <p class="fristaendetext">Fristånde är den viktigaste grenen inom truppgymnastik eftersom att det bestämmer vilka som får vara med på tumbling och trampet. Friståndet är en koreografi, likt en dans, där man även utför andra enka volter och svårigheter. </p>
       <img title="Fredrik Lindgren" alt="bild på fristående" id="fristaendebild" src="fristaende.jpg">
 
+      <!--Footer med länkatribut för att kunna ersätta
+      dropdownmenyn om javascript inte tillåtes/fungerar -->
       <footer class="fot1">
         <a href="#rubrik" target="_blank" class="lanktilltopp">Tillbaka till toppen</a>
         <a href="https://www.gymnastik.se/" target="_blank" class="lank_forbund">Gymnastikförbundet</a>
         <a href="gymnastik_tavlingar.html" target="_blank" class="lanktilltavling">Tävlingar</a>
       </footer>
     </div>
-    <div class="background"></div>
+  <!-- Slutet av Grid -->
 
+<!--Tillåter att javascript används-->
     <script src="index.js">
     </script>
 
